@@ -6,7 +6,7 @@ const cors = require('cors');
 const connectToMongoDb = require('./config/db');
 connectToMongoDb();
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8000;
 
 // apply middleware
 app.use(express.json());
