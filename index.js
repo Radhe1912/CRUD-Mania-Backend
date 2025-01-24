@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 8000;
 // apply middleware
 app.use(express.json());
 const corsOptions = {
-    origin: 'http://localhost:3000',  // Allow only frontend's local URL
+    origin: 'https://crud-mania.vercel.app/',  // Allow only frontend's local URL
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     allowedHeaders: ['Content-Type', 'Authorization'],
   };
